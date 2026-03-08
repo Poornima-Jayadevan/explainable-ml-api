@@ -91,7 +91,7 @@ POST /predict
   "loan_grade": "B",
   "cb_person_default_on_file": "N"
 }
-
+```
 
 
 ### Response
@@ -101,6 +101,7 @@ POST /predict
   "prediction": 0,
   "risk_score": 0.12
 }
+```
 
 ## Running the Project Locally
 
@@ -108,11 +109,13 @@ POST /predict
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Start the FastAPI Server
 
 ```bash
 uvicorn main:app --reload
+```
 
 ### 3. Open API Documentation
 
@@ -129,6 +132,7 @@ FastAPI automatically provides **interactive Swagger documentation** where all e
 
 ```bash
 docker build -t explainable-ml-api .
+```
 
 ---
 
@@ -136,6 +140,7 @@ docker build -t explainable-ml-api .
 
 ```bash
 docker run -p 8000:8000 explainable-ml-api
+```
 
 ---
 
@@ -157,17 +162,19 @@ Upload a **CSV file** containing the same columns as the API input fields.
 person_age,person_income,person_emp_length,loan_amnt,loan_int_rate,loan_percent_income,cb_person_cred_hist_length,person_home_ownership,loan_intent,loan_grade,cb_person_default_on_file
 22,59000,3,10000,12.5,0.2,3,RENT,PERSONAL,B,N
 30,85000,6,15000,10.5,0.18,5,MORTGAGE,EDUCATION,A,N
+```
 
 Use endpoint:
 
+```
 POST /batch_predict
-
+```
 
 or
 
-
+```
 POST /batch_explain
-
+```
 
 ---
 

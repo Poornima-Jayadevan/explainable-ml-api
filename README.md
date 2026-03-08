@@ -105,6 +105,8 @@ POST /predict
 }
 ```
 
+---
+
 ## Running the Project Locally
 
 ### 1. Install Dependencies

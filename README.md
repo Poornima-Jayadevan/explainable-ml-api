@@ -37,18 +37,17 @@ The system is built using **FastAPI**, **scikit-learn**, **SHAP**, and **Docker*
 
 ## Project Structure
 
-explainable-ml-api
+explainable-ml-api/
 │
-├── main.py # FastAPI application
-├── Dockerfile # Docker container configuration
-├── requirements.txt # Python dependencies
-├── risk_model.pkl # Trained ML model
-├── feature_names.pkl # Feature names used by the model
-├── model_train_test.py # Script used to train the model
-├── test.http # API test requests
-├── .dockerignore # Files ignored during Docker build
-└── README.md # Project documentation
-
+├── main.py                 # FastAPI application
+├── Dockerfile              # Docker container configuration
+├── requirements.txt        # Python dependencies
+├── risk_model.pkl          # Trained Random Forest model
+├── feature_names.pkl       # Feature names used by the model
+├── model_train_test.py     # Script used to train the model
+├── test.http               # API test requests
+├── README.md               # Project documentation
+├── .dockerignore           # Files ignored during Docker build
 
 ---
 

@@ -37,6 +37,7 @@ The system is built using **FastAPI**, **scikit-learn**, **SHAP**, and **Docker*
 
 ## Project Structure
 
+```text
 explainable-ml-api/
 │
 ├── main.py                 # FastAPI application
@@ -48,7 +49,7 @@ explainable-ml-api/
 ├── test.http               # API test requests
 ├── README.md               # Project documentation
 ├── .dockerignore           # Files ignored during Docker build
-
+```
 ---
 
 ## API Endpoints

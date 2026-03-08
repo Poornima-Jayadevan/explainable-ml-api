@@ -51,21 +51,7 @@ explainable-ml-api/
 ├── README.md               # Project documentation
 ├── .dockerignore           # Files ignored during Docker build
 ```
-=======
-explainable-ml-api
-│
-├── main.py # FastAPI application
-├── Dockerfile # Docker container configuration
-├── requirements.txt # Python dependencies
-├── risk_model.pkl # Trained ML model
-├── feature_names.pkl # Feature names used by the model
-├── model_train_test.py # Script used to train the model
-├── test.http # API test requests
-├── .dockerignore # Files ignored during Docker build
-└── README.md # Project documentation
-```
 
->>>>>>>(Fix README markdown formatting)
 ---
 
 ## API Endpoints

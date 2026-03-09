@@ -10,6 +10,15 @@ The system is built using **FastAPI**, **scikit-learn**, **SHAP**, and **Docker*
 
 ---
 
+
+## Live Demo
+
+API Documentation:
+https://explainable-ml-api.onrender.com/docs
+
+---
+
+
 ## Features
 
 - Loan risk prediction using a trained **Random Forest classifier**
